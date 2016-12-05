@@ -1,0 +1,40 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="jquery/menu.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 align="center">PQM Application</h1><br/>
+
+    <h3 id="output" align="right"></h3>
+
+    <h2>My Projects</h2><br />
+    <div style="width: 50%">
+        <table class="table table-striped" id = "projects-table">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Created at</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            </tr>
+            </tbody>
+        </table>
+
+        <input type="submit" name="new-project" id="new-project" value="add new project" onclick="newProject()">
+    </div>
+
+</body>
+</html>
