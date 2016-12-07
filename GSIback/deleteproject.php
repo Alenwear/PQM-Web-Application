@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Rocha
- * Date: 05/12/2016
- * Time: 18:24
- */
 
 include 'pdo_connect.php';
 

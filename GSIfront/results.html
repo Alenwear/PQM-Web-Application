@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PQM Grids Results</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="jquery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="jquery/newproject.js"></script>
+    <script type="text/javascript" src="jquery/logout.js"></script>
+    <script type="text/javascript" src="jquery/results.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="menu.html">PQM Application</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">PQM Results</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-brand" id="output"></a> </li>
+            <li><a onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <br/>
+    <h2>Critical Success Factors/Business Processes Summary Grid</h2>
+        <div>
+            <table class="table table-striped" id = "csfbp-table">
+                <foot>
+                <tr>
+                </tr>
+                </foot>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+</div>
+<div class="container">
+    <br/>
+    <h2>Business / Technical Audit Summary Grid</h2>
+    <div>
+        <table class="table table-striped" id = "bta-table">
+            <tfoot>
+            <tr>
+            </tr>
+            </tfoot>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>

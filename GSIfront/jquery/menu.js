@@ -3,9 +3,12 @@ function newProject() {
 }
 
 function deleteProject(row){
+    var table = document.getElementById("projects-table");
+    var firstRow = table.rows[row+1].cells;
+    var id = firstRow.item(0).innerHTML;
     $.ajax({
         url: '../GSIback/deleteproject.php',
-        data: {arguments: row},
+        data: {arguments: id},
         method: 'post',
         dataType: 'json',
         success: function(data){
@@ -23,10 +26,9 @@ function deleteProject(row){
 $(function(){
         // perform the AJAX request
     $.ajax({
-        url: '../GSIback/getprojects.php',                  //the script to call to get data
-        data: "",                        //you can insert url argumnets here to pass to api.php
-                                         //for example "id=5&parent=6"
-        dataType: 'json',                //data format
+        url: '../GSIback/getprojects.php',
+        data: "",
+        dataType: 'json',
         success: function(data) {
             $('#output').text('Welcome back, '+data[0]['userFirstName']);
             $.each(data, function(i, item) {

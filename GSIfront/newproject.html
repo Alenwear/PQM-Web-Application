@@ -6,13 +6,80 @@
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="jquery/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="jquery/loginregister.js"></script>
+    <script type="text/javascript" src="jquery/newproject.js"></script>
+    <script type="text/javascript" src="jquery/logout.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1 align="center">PQM Application</h1><br/>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="menu.html">PQM Application</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Add New Project</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a class="navbar-brand" id="output"></a> </li>
+            <li><a onclick="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+        </ul>
+    </div>
+</nav>
 
-<div id="response"></div>
+<div class="container">
+    <h2>Add new project</h2>
+    <form id="create" class="form-horizontal" action="../GSIback/newproject.php" method="post" role="form">
+        <label>Basic Information</label>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="name" class="form-control" placeholder="Enter a Name for the Project">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="enterprise" class="form-control" placeholder="Enter the Enterprise in study">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="mission" class="form-control"placeholder="Enter Mission">
+            </div>
+        </div>
+        <label>Dominant Influences (Separate influences with a comma "," please)</label>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="upwards" class="form-control" placeholder="Enter Upward Relationships">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="external" class="form-control" placeholder="Enter External Relationships">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="functional" class="form-control" placeholder="Enter Functional Control">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-10">
+                <input type="text" name="peer" class="form-control" placeholder="Enter Peer Relationships">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Continue</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
 
 </body>
 </html>
