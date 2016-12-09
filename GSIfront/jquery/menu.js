@@ -23,6 +23,27 @@ function deleteProject(row){
     })
 }
 
+function seeResults(row){
+    var table = document.getElementById("projects-table");
+    var firstRow = table.rows[row+1].cells;
+    var id = firstRow.item(0).innerHTML;
+    $.ajax({
+        url: '../GSIback/getresults.php',
+        data: {arguments: id},
+        method: 'post',
+        dataType: 'json',
+        success: function(data){
+            if (data == -1){
+                alert('A error ocurred');
+            }
+            else{
+                alert('Project successfully deleted');
+                window.location.href = "results.html";
+            }
+        }
+    })
+}
+
 $(function(){
         // perform the AJAX request
     $.ajax({
@@ -38,6 +59,7 @@ $(function(){
                     $('<td>').text(item.ID),
                     $('<td>').text(item.name),
                     $('<td>').text(item.dateCreated),
+                    $('<td>').html($('<input></input>').attr({'type': 'button','class': 'btn btn-sm btn-success', 'id': 'row1', 'onclick' : 'seeResults('+i+')'}).val("See Results")),
                     $('<td>').html($('<input></input>').attr({'type': 'button','class': 'btn btn-sm btn-danger', 'id': 'row', 'onclick' : 'deleteProject('+i+')'}).val("Delete"))
                 ).appendTo('#projects-table');
             });

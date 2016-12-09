@@ -99,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newproject.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="newproject.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newproject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="368">
               <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
@@ -112,6 +112,18 @@
                 <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
                 <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
                 <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getresults.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/getresults.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1481301477000" expanded="true" signature="211:332" ph="SELECT name,... BusinessProcess" />
               </folding>
             </state>
           </provider>
@@ -276,17 +288,18 @@
       <workItem from="1481104834216" duration="938000" />
       <workItem from="1481120283802" duration="259000" />
       <workItem from="1481120580518" duration="198000" />
+      <workItem from="1481292941756" duration="1073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28741000" />
+    <option name="totallyTimeSpent" value="29814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,7 +448,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1481105240000" expanded="true" signature="109:220" ph="SELECT name,... BusinessProcess" />
+            <marker date="1481301477000" expanded="true" signature="211:332" ph="SELECT name,... BusinessProcess" />
           </folding>
         </state>
       </provider>
@@ -748,16 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getresults.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <marker date="1481105240000" expanded="true" signature="109:220" ph="SELECT name,... BusinessProcess" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdo_connect.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -787,6 +790,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/createproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
+            <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
+            <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
+            <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
+            <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getprojects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -808,38 +846,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
-            <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
-            <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logout.php">
+    <entry file="file://$PROJECT_DIR$/getresults.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1481301477000" expanded="true" signature="211:332" ph="SELECT name,... BusinessProcess" />
+          </folding>
         </state>
       </provider>
     </entry>
