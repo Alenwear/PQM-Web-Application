@@ -5,6 +5,7 @@ include 'pdo_connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST'){
     $_SESSION['projectID'] = $_POST['arguments'];
+    echo 1;
 }
 
 else if ($_SERVER['REQUEST_METHOD'] === 'GET'){

@@ -102,7 +102,7 @@
       <file leaf-file-name="newproject.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newproject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="465">
               <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
               <folding>
                 <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
@@ -121,9 +121,9 @@
         <entry file="file://$PROJECT_DIR$/getresults.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <marker date="1481301477000" expanded="true" signature="211:332" ph="SELECT name,... BusinessProcess" />
+                <marker date="1481312584000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
               </folding>
             </state>
           </provider>
@@ -188,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,7 +203,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -289,17 +289,18 @@
       <workItem from="1481120283802" duration="259000" />
       <workItem from="1481120580518" duration="198000" />
       <workItem from="1481292941756" duration="1073000" />
+      <workItem from="1481312568580" duration="530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29814000" />
+    <option name="totallyTimeSpent" value="30344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -448,7 +449,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1481301477000" expanded="true" signature="211:332" ph="SELECT name,... BusinessProcess" />
+            <marker date="1481312584000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
           </folding>
         </state>
       </provider>
@@ -803,7 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newproject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="465">
           <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
@@ -849,9 +850,9 @@
     <entry file="file://$PROJECT_DIR$/getresults.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <marker date="1481301477000" expanded="true" signature="211:332" ph="SELECT name,... BusinessProcess" />
+            <marker date="1481312584000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
           </folding>
         </state>
       </provider>

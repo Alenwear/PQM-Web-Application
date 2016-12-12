@@ -23,23 +23,24 @@ function createCSFBPtable(data){
             maxImpacts = data[i]['impactTotal'];
     }
 
-    //console.log(maxImpacts);
+    console.log(maxImpacts);
     var table = document.getElementById("csfbp-table");
 
     for (var i = 0; i<=maxImpacts;i++){
         var row = table.insertRow(i);
         var cell1 = row.insertCell(0);
         cell1.innerHTML = (maxImpacts-i).toString();
+        cell1.align = "center";
         for (var k = 0; k<5; k++){
             var cell = row.insertCell(k + 1);
             for (var j = 0; j <data.length; j++){
-                if (data[j]['impactTotal'] == i){
-                    if (data[j]['processQuality'] == k){
+                if (data[j]['processQuality'] == k){
+                    if (data[j]['impactTotal'] == maxImpacts-i){
                         if (data[j]['bigBurner'] == 1) {
-                            cell.innerHTML += "<strong>" + "BP"+j.toString() + "\n</strong>";
+                            cell.innerHTML += "<strong>" + data[j]['name'] + "\n</strong>";
                         }
                         else {
-                            cell.innerHTML += "BP" + j.toString() + "\n";
+                            cell.innerHTML += data[j]['name'] + "\n";
                         }
                     }
                 }
@@ -47,6 +48,7 @@ function createCSFBPtable(data){
         }
     }
     var tfoot = document.createElement('tfoot');
+    tfoot.style.textAlign = "right";
     table.appendChild(tfoot);
     var tr = document.createElement('tr');
     tfoot.appendChild(tr);
@@ -70,7 +72,7 @@ function createBTAtable(data){
         var row = table.insertRow(i);
         var cell1 = row.insertCell(0);
         cell1.innerHTML = classifications[classifications.length-1-i];
-        cell1.align = "right";
+        cell1.align = "center";
         for (var k = 0; k < classifications.length;k++){
             var cell = row.insertCell(k+1);
             if (i == 0 || i==1){

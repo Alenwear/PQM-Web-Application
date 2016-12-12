@@ -37,7 +37,6 @@ function seeResults(row){
                 alert('A error ocurred');
             }
             else{
-                alert('Project successfully deleted');
                 window.location.href = "results.html";
             }
         }
