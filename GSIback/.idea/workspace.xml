@@ -26,139 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="deleteproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <marker date="1481075754000" expanded="true" signature="73:107" ph="DELETE FROM " />
-                <marker date="1481075754000" expanded="true" signature="80:107" ph="SELECT * FRO... Project" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <marker date="1480959010000" expanded="true" signature="146:187" ph="SELECT `pass... User" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
-                <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <marker date="1480892160000" expanded="true" signature="491:543" ph="INSERT INTO `users`... " />
-                <marker date="1480892160000" expanded="true" signature="491:585" ph="INSERT INTO `users`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding>
-                <marker date="1481822179000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-                <marker date="1481822179000" expanded="true" signature="568:687" ph="INSERT INTO `Project`... " />
-                <marker date="1481822179000" expanded="true" signature="834:883" ph="SELECT ID FR... Project" />
-                <marker date="1481822179000" expanded="true" signature="1251:1326" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481822179000" expanded="true" signature="1524:1599" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481822179000" expanded="true" signature="1791:1866" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481822179000" expanded="true" signature="2052:2127" ph="INSERT INTO `DominantInfluence`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addconclusionstoproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addconclusionstoproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <marker date="1481822673000" expanded="true" signature="205:256" ph="UPDATE `Proj... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getprojects.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getprojects.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <marker date="1481075754000" expanded="true" signature="199:240" ph="SELECT * FRO... Project" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <marker date="1481819047000" expanded="true" signature="655:726" ph="UPDATE `Proj... " />
-                <marker date="1481819047000" expanded="true" signature="655:734" ph="UPDATE `Proj... " />
-                <marker date="1481819047000" expanded="true" signature="661:726" ph="INSERT INTO `Project`... " />
-                <marker date="1481819047000" expanded="true" signature="1083:1136" ph="DELETE FROM " />
-                <marker date="1481819047000" expanded="true" signature="1312:1387" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481819047000" expanded="true" signature="1324:1371" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481819047000" expanded="true" signature="1597:1672" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481819047000" expanded="true" signature="1884:1959" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481819047000" expanded="true" signature="2165:2240" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481819047000" expanded="true" signature="2623:2661" ph="SELECT * FRO... Project" />
-                <marker date="1481819047000" expanded="true" signature="2766:2821" ph="SELECT * FRO... DominantInfluence" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getresults.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/getresults.php">
+      <file leaf-file-name="pdo_connect.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdo_connect.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-              <folding>
-                <marker date="1481823128000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
-                <marker date="1481823128000" expanded="true" signature="449:497" ph="SELECT concl... Project" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -317,12 +189,12 @@
       <workItem from="1481120580518" duration="198000" />
       <workItem from="1481292941756" duration="1073000" />
       <workItem from="1481312568580" duration="530000" />
-      <workItem from="1481814142278" duration="5103000" />
+      <workItem from="1481814142278" duration="5124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35447000" />
+    <option name="totallyTimeSpent" value="35468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -770,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdo_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -812,17 +676,6 @@
             <marker date="1481819047000" expanded="true" signature="2165:2240" ph="INSERT INTO `DominantInfluence`... " />
             <marker date="1481819047000" expanded="true" signature="2623:2661" ph="SELECT * FRO... Project" />
             <marker date="1481819047000" expanded="true" signature="2766:2821" ph="SELECT * FRO... DominantInfluence" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deleteproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1481075754000" expanded="true" signature="73:107" ph="DELETE FROM " />
-            <marker date="1481075754000" expanded="true" signature="80:107" ph="SELECT * FRO... Project" />
           </folding>
         </state>
       </provider>
@@ -893,6 +746,25 @@
             <marker date="1481823128000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
             <marker date="1481823128000" expanded="true" signature="449:497" ph="SELECT concl... Project" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1481075754000" expanded="true" signature="73:107" ph="DELETE FROM " />
+            <marker date="1481075754000" expanded="true" signature="80:107" ph="SELECT * FRO... Project" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdo_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

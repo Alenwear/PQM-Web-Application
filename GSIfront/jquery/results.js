@@ -54,7 +54,7 @@ $(function(){
 function listProcesses(data){
     var list = document.getElementById("bpList");
     for (var i = 0; i<data.length-1; i++){
-        list.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>"
+        list.innerHTML += "<strong>BP"+(i+1).toString()+":</strong> "+data[i]['name'] + "<br/>"
     }
     var conclusions = document.getElementById("conclusions");
     conclusions.value = data[data.length-1]['conclusions'];
@@ -77,19 +77,19 @@ function determineBPnoIT(data){
     }
     for (var i = 0; i<data.length-1; i++){
         if (data[i]['businessQuality'] == 0 || data[i]['techQuality'] == 0){
-            list.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>"
+            list.innerHTML += "<strong>BP"+(i+1).toString()+":</strong> "+data[i]['name'] + "<br/>"
         }
         if (data[i]['processQuality'] == 0){
             if (data[i]['impactTotal'] >= maxImpacts-4)
-                mcp.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>";
+                mcp.innerHTML += "<strong>BP"+(i+1).toString()+":</strong> "+data[i]['name'] + "<br/>";
         }
         else if (data[i]['processQuality'] == 1){
             if (data[i]['impactTotal'] >= maxImpacts-3)
-                mcp.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>";
+                mcp.innerHTML += "<strong>BP"+(i+1).toString()+":</strong> "+data[i]['name'] + "<br/>";
         }
         else if (data[i]['processQuality'] == 2){
             if (data[i]['impactTotal'] >= maxImpacts-1)
-                mcp.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>";
+                mcp.innerHTML += "<strong>BP"+(i+1).toString()+":</strong> "+data[i]['name'] + "<br/>";
         }
     }
 }
@@ -153,10 +153,10 @@ function createCSFBPtable(data){
                 if (data[j]['processQuality'] == k){
                     if (data[j]['impactTotal'] == maxImpacts-i){
                         if (data[j]['bigBurner'] == 1) {
-                            cell.innerHTML += "<strong>" + "BP"+j.toString()+"\n</strong>";
+                            cell.innerHTML += "<strong>" + "BP"+(j+1).toString()+"\n</strong>";
                         }
                         else {
-                            cell.innerHTML += "BP"+j.toString()+"\n";
+                            cell.innerHTML += "BP"+(j+1).toString()+"\n";
                         }
                     }
                 }
@@ -210,7 +210,7 @@ function createBTAtable(data){
             for (var j = 0; j <data.length-1; j++){
                 if (data[j]['businessQuality'] == classifications.length-i){
                     if (data[j]['techQuality'] == k+1){
-                        cell.innerHTML +="BP"+j.toString()+"\n";
+                        cell.innerHTML +="BP"+(j+1).toString()+"\n";
                     }
                 }
             }
