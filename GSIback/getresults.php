@@ -11,7 +11,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST'){
 else if ($_SERVER['REQUEST_METHOD'] === 'GET'){
     $query = "SELECT name,impactTotal,processQuality,bigBurner,businessQuality,techQuality FROM `BusinessProcess` WHERE IDProject = (?)";
     $params = array($_SESSION['projectID']);
-    $results = dataQuery($query,$params);
+    $result1 = dataQuery($query,$params);
+
+    $query = "SELECT conclusions FROM `Project` WHERE ID = (?)";
+    $result2 = dataQuery($query, $params);
+
+    $results = array_merge($result1, $result2);
 
     echo json_encode($results);
 }

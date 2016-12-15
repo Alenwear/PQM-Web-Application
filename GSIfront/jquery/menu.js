@@ -23,6 +23,24 @@ function deleteProject(row){
     })
 }
 
+function editProject(row){
+    var table = document.getElementById("projects-table");
+    var firstRow = table.rows[row+1].cells;
+    var id = firstRow.item(0).innerHTML;
+    $.ajax({
+        url: '../GSIback/editproject.php',
+        data: {arguments: id},
+        method: 'post',
+        dataType: 'json',
+        success: function (data) {
+            console.log(data);
+            if (data == 1){
+                window.location.href = "editproject.html";
+            }
+        }
+    })
+}
+
 function seeResults(row){
     var table = document.getElementById("projects-table");
     var firstRow = table.rows[row+1].cells;
@@ -59,6 +77,7 @@ $(function(){
                     $('<td>').text(item.name),
                     $('<td>').text(item.dateCreated),
                     $('<td>').html($('<input></input>').attr({'type': 'button','class': 'btn btn-sm btn-success', 'id': 'row1', 'onclick' : 'seeResults('+i+')'}).val("See Results")),
+                    $('<td>').html($('<input></input>').attr({'type': 'button','class': 'btn btn-sm btn-primary', 'id': 'row2', 'onclick' : 'editProject('+i+')'}).val("Edit")),
                     $('<td>').html($('<input></input>').attr({'type': 'button','class': 'btn btn-sm btn-danger', 'id': 'row', 'onclick' : 'deleteProject('+i+')'}).val("Delete"))
                 ).appendTo('#projects-table');
             });

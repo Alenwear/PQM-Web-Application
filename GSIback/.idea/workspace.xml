@@ -26,12 +26,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pdo_connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdo_connect.php">
+      <file leaf-file-name="deleteproject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deleteproject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <marker date="1481075754000" expanded="true" signature="73:107" ph="DELETE FROM " />
+                <marker date="1481075754000" expanded="true" signature="80:107" ph="SELECT * FRO... Project" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,14 +51,57 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="createproject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/createproject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
+                <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="46" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="330">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <marker date="1480892160000" expanded="true" signature="491:543" ph="INSERT INTO `users`... " />
                 <marker date="1480892160000" expanded="true" signature="491:585" ph="INSERT INTO `users`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newproject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newproject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding>
+                <marker date="1481822179000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
+                <marker date="1481822179000" expanded="true" signature="568:687" ph="INSERT INTO `Project`... " />
+                <marker date="1481822179000" expanded="true" signature="834:883" ph="SELECT ID FR... Project" />
+                <marker date="1481822179000" expanded="true" signature="1251:1326" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481822179000" expanded="true" signature="1524:1599" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481822179000" expanded="true" signature="1791:1866" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481822179000" expanded="true" signature="2052:2127" ph="INSERT INTO `DominantInfluence`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addconclusionstoproject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addconclusionstoproject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1481822673000" expanded="true" signature="205:256" ph="UPDATE `Proj... " />
               </folding>
             </state>
           </provider>
@@ -73,45 +119,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleteproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deleteproject.php">
+      <file leaf-file-name="editproject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editproject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
-                <marker date="1481075754000" expanded="true" signature="73:107" ph="DELETE FROM " />
-                <marker date="1481075754000" expanded="true" signature="80:107" ph="SELECT * FRO... Project" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/createproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
-                <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newproject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newproject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-              <folding>
-                <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-                <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
-                <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
-                <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
-                <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481819047000" expanded="true" signature="655:726" ph="UPDATE `Proj... " />
+                <marker date="1481819047000" expanded="true" signature="655:734" ph="UPDATE `Proj... " />
+                <marker date="1481819047000" expanded="true" signature="661:726" ph="INSERT INTO `Project`... " />
+                <marker date="1481819047000" expanded="true" signature="1083:1136" ph="DELETE FROM " />
+                <marker date="1481819047000" expanded="true" signature="1312:1387" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481819047000" expanded="true" signature="1324:1371" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481819047000" expanded="true" signature="1597:1672" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481819047000" expanded="true" signature="1884:1959" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481819047000" expanded="true" signature="2165:2240" ph="INSERT INTO `DominantInfluence`... " />
+                <marker date="1481819047000" expanded="true" signature="2623:2661" ph="SELECT * FRO... Project" />
+                <marker date="1481819047000" expanded="true" signature="2766:2821" ph="SELECT * FRO... DominantInfluence" />
               </folding>
             </state>
           </provider>
@@ -120,10 +144,11 @@
       <file leaf-file-name="getresults.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getresults.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="270">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
-                <marker date="1481312584000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
+                <marker date="1481823128000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
+                <marker date="1481823128000" expanded="true" signature="449:497" ph="SELECT concl... Project" />
               </folding>
             </state>
           </provider>
@@ -153,10 +178,12 @@
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/pdo_connect.php" />
         <option value="$PROJECT_DIR$/deleteproject.php" />
-        <option value="$PROJECT_DIR$/newproject.php" />
         <option value="$PROJECT_DIR$/logout.php" />
         <option value="$PROJECT_DIR$/getprojects.php" />
         <option value="$PROJECT_DIR$/createproject.php" />
+        <option value="$PROJECT_DIR$/editproject.php" />
+        <option value="$PROJECT_DIR$/newproject.php" />
+        <option value="$PROJECT_DIR$/addconclusionstoproject.php" />
         <option value="$PROJECT_DIR$/getresults.php" />
       </list>
     </option>
@@ -169,9 +196,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -188,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,13 +229,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -290,14 +317,15 @@
       <workItem from="1481120580518" duration="198000" />
       <workItem from="1481292941756" duration="1073000" />
       <workItem from="1481312568580" duration="530000" />
+      <workItem from="1481814142278" duration="4994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30344000" />
+    <option name="totallyTimeSpent" value="35338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -330,27 +358,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <marker date="1480959010000" expanded="true" signature="146:187" ph="SELECT `pass... User" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <marker date="1480892160000" expanded="true" signature="491:543" ph="INSERT INTO `users`... " />
-            <marker date="1480892160000" expanded="true" signature="491:585" ph="INSERT INTO `users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getprojects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -449,7 +456,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1481312584000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
+            <marker date="1481823128000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
+            <marker date="1481823128000" expanded="true" signature="449:497" ph="SELECT concl... Project" />
           </folding>
         </state>
       </provider>
@@ -459,13 +467,13 @@
         <state relative-caret-position="465">
           <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
-            <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
-            <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="568:687" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="834:883" ph="SELECT ID FR... Project" />
+            <marker date="1481822179000" expanded="true" signature="1251:1326" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1524:1599" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1791:1866" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="2052:2127" ph="INSERT INTO `DominantInfluence`... " />
           </folding>
         </state>
       </provider>
@@ -622,13 +630,13 @@
         <state relative-caret-position="285">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
-            <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
-            <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="568:687" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="834:883" ph="SELECT ID FR... Project" />
+            <marker date="1481822179000" expanded="true" signature="1251:1326" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1524:1599" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1791:1866" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="2052:2127" ph="INSERT INTO `DominantInfluence`... " />
           </folding>
         </state>
       </provider>
@@ -696,13 +704,13 @@
         <state relative-caret-position="285">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
-            <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
-            <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="568:687" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="834:883" ph="SELECT ID FR... Project" />
+            <marker date="1481822179000" expanded="true" signature="1251:1326" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1524:1599" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1791:1866" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="2052:2127" ph="INSERT INTO `DominantInfluence`... " />
           </folding>
         </state>
       </provider>
@@ -770,54 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <marker date="1480959010000" expanded="true" signature="146:187" ph="SELECT `pass... User" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <marker date="1480892160000" expanded="true" signature="491:543" ph="INSERT INTO `users`... " />
-            <marker date="1480892160000" expanded="true" signature="491:585" ph="INSERT INTO `users`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
-            <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding>
-            <marker date="1481075754000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="568:670" ph="INSERT INTO `Project`... " />
-            <marker date="1481075754000" expanded="true" signature="814:863" ph="SELECT ID FR... Project" />
-            <marker date="1481075754000" expanded="true" signature="1231:1306" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1504:1579" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="1771:1846" ph="INSERT INTO `DominantInfluence`... " />
-            <marker date="1481075754000" expanded="true" signature="2032:2107" ph="INSERT INTO `DominantInfluence`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -836,6 +796,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/editproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <marker date="1481819047000" expanded="true" signature="655:726" ph="UPDATE `Proj... " />
+            <marker date="1481819047000" expanded="true" signature="655:734" ph="UPDATE `Proj... " />
+            <marker date="1481819047000" expanded="true" signature="661:726" ph="INSERT INTO `Project`... " />
+            <marker date="1481819047000" expanded="true" signature="1083:1136" ph="DELETE FROM " />
+            <marker date="1481819047000" expanded="true" signature="1312:1387" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481819047000" expanded="true" signature="1324:1371" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481819047000" expanded="true" signature="1597:1672" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481819047000" expanded="true" signature="1884:1959" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481819047000" expanded="true" signature="2165:2240" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481819047000" expanded="true" signature="2623:2661" ph="SELECT * FRO... Project" />
+            <marker date="1481819047000" expanded="true" signature="2766:2821" ph="SELECT * FRO... DominantInfluence" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deleteproject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -847,12 +827,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getresults.php">
+    <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
-            <marker date="1481312584000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
+            <marker date="1480959010000" expanded="true" signature="146:187" ph="SELECT `pass... User" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1480892160000" expanded="true" signature="491:543" ph="INSERT INTO `users`... " />
+            <marker date="1480892160000" expanded="true" signature="491:585" ph="INSERT INTO `users`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1481075754000" expanded="true" signature="228:298" ph="INSERT INTO `CriticalSuccessFactor`... " />
+            <marker date="1481075754000" expanded="true" signature="555:721" ph="INSERT INTO `BusinessProcess`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <marker date="1481822179000" expanded="true" signature="568:623" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="568:687" ph="INSERT INTO `Project`... " />
+            <marker date="1481822179000" expanded="true" signature="834:883" ph="SELECT ID FR... Project" />
+            <marker date="1481822179000" expanded="true" signature="1251:1326" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1524:1599" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="1791:1866" ph="INSERT INTO `DominantInfluence`... " />
+            <marker date="1481822179000" expanded="true" signature="2052:2127" ph="INSERT INTO `DominantInfluence`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addconclusionstoproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1481822673000" expanded="true" signature="205:256" ph="UPDATE `Proj... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getresults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <marker date="1481823128000" expanded="true" signature="223:344" ph="SELECT name,... BusinessProcess" />
+            <marker date="1481823128000" expanded="true" signature="449:497" ph="SELECT concl... Project" />
           </folding>
         </state>
       </provider>

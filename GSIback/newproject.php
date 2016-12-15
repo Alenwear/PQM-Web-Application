@@ -21,8 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     if ($name != "" && $mission!="" && $enterprise!="" && $upwards!="" && $external!="" && $functional!="" && $peer!="") {
-        $query = 'INSERT INTO `Project` (`name`, `mission`, `enterprise`,`dateCreated`,`User_ID`) VALUES (?,?,?,NOW(),?)';
-        $params = array($name, $mission, $enterprise ,$_SESSION['userID']);
+        $query = 'INSERT INTO `Project` (`name`, `mission`, `enterprise`,`dateCreated`,`User_ID`, `conclusions`) VALUES (?,?,?,NOW(),?,?)';
+        $params = array($name, $mission, $enterprise ,$_SESSION['userID'],"");
         $results = dataQuery($query, $params);
         $query = 'SELECT ID FROM `Project` ORDER BY ID DESC LIMIT 1;';
         $params = array();

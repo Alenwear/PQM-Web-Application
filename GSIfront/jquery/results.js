@@ -1,24 +1,79 @@
 $(function(){
-    //TODO AJAX REQUEST TO GET NUMIMPACTS, PROCESS QUALITY, JSONINDEX FOR CSFBP-TABLE
-    //TODO AJAX REQUEST GO GET BUSINESS QUALITY, TECHNICAL QUALITY, JSONINDEX FOR BTA-TABLE
     $.ajax({
-        url: '../GSIback/getresults.php',                  //the script to call to get data
-        data: "",                        //you can insert url argumnets here to pass to api.php
-                                         //for example "id=5&parent=6"
-        dataType: 'json',                //data format
+        url: '../GSIback/getresults.php',
+        data: "",
+        dataType: 'json',
         success: function (data) {
+            listProcesses(data);
             createCSFBPtable(data);
             createBTAtable(data);
+            determineBPnoIT(data);
         }
     });
+
+    $('#conclusion').submit(function (event) {
+        event.preventDefault();
+        // gather the form data
+        var formName = $(this).attr('name');
+        var formData = $(this).serialize();
+        var formMethod = $(this).attr('method');
+        var processingScript = $(this).attr('action');
+
+        // perform the AJAX request
+        var request = $.ajax({
+            url: processingScript,
+            method: formMethod,
+            data: formData
+        });
+
+        // handle the responses
+        request.done(function (data) {
+            //data: response from backend PHP
+            if (data == -1){
+                alert("Something went wrong. Try again");
+                window.location.href = "results.html";
+            }
+            else if (data == 1){
+                alert("Conclusions successfully updated");
+                window.location.href = "results.html";
+            }
+            else{
+                alert(data);
+            }
+        })
+        request.fail(function (jqXHR, textStatus) {
+            console.log(textStatus);
+        })
+        request.always(function (data) {
+            // clear the form
+            $('form[name="' + formName + '"]').trigger('reset');
+        });
+    });
 });
+
+function listProcesses(data){
+    var list = document.getElementById("bpList");
+    for (var i = 0; i<data.length-1; i++){
+        list.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>"
+    }
+    var conclusions = document.getElementById("conclusions");
+    conclusions.value = data[data.length-1]['conclusions'];
+}
+
+function determineBPnoIT(data){
+    var list = document.getElementById("bpnoIT");
+    for (var i = 0; i<data.length-1; i++){
+        if (data[i]['businessQuality'] == 0 || data[i]['techQuality'] == 0){
+            list.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>"
+        }
+    }
+}
 
 function createCSFBPtable(data){
     var classifications = ['E','D','C','B','A'];
     console.log(data);
-    //console.log(data.length);
     var maxImpacts = 0;
-    for (var i = 0; i<data.length; i++){
+    for (var i = 0; i<data.length-1; i++){
         if (data[i]['impactTotal']>maxImpacts)
             maxImpacts = data[i]['impactTotal'];
     }
@@ -33,14 +88,14 @@ function createCSFBPtable(data){
         cell1.align = "center";
         for (var k = 0; k<5; k++){
             var cell = row.insertCell(k + 1);
-            for (var j = 0; j <data.length; j++){
+            for (var j = 0; j <data.length-1; j++){
                 if (data[j]['processQuality'] == k){
                     if (data[j]['impactTotal'] == maxImpacts-i){
                         if (data[j]['bigBurner'] == 1) {
-                            cell.innerHTML += "<strong>" + data[j]['name'] + "\n</strong>";
+                            cell.innerHTML += "<strong>" + "BP"+j.toString()+"\n</strong>";
                         }
                         else {
-                            cell.innerHTML += data[j]['name'] + "\n";
+                            cell.innerHTML += "BP"+j.toString()+"\n";
                         }
                     }
                 }
@@ -65,7 +120,6 @@ function createCSFBPtable(data){
 function createBTAtable(data){
     var classifications = ['D','C','B','A'];
 
-    //console.log(maxImpacts);
     var table = document.getElementById("bta-table");
 
     for (var i = 0;i<classifications.length;i++){
@@ -91,7 +145,7 @@ function createBTAtable(data){
                     cell.className = "active";
                 }
             }
-            for (var j = 0; j <data.length; j++){
+            for (var j = 0; j <data.length-1; j++){
                 if (data[j]['businessQuality'] == classifications.length-i){
                     if (data[j]['techQuality'] == k+1){
                         cell.innerHTML +="BP"+j.toString()+"\n";
