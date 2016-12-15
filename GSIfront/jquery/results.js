@@ -77,6 +77,9 @@ function createCSFBPtable(data){
         if (data[i]['impactTotal']>maxImpacts)
             maxImpacts = data[i]['impactTotal'];
     }
+    if (maxImpacts < 7){
+        maxImpacts = 7;
+    }
 
     console.log(maxImpacts);
     var table = document.getElementById("csfbp-table");
@@ -88,6 +91,39 @@ function createCSFBPtable(data){
         cell1.align = "center";
         for (var k = 0; k<5; k++){
             var cell = row.insertCell(k + 1);
+            if (k==0){
+                if (i<maxImpacts-2)
+                    cell.className = "danger";
+                else if (i > maxImpacts-1)
+                    cell.className = "success";
+                else
+                    cell.className = "warning";
+            }
+            else if (k == 1){
+                if (i < maxImpacts-maxImpacts+4)
+                    cell.className = "danger";
+                else if (i > maxImpacts-maxImpacts+5)
+                    cell.className = "success";
+                else
+                    cell.className = "warning";
+            }
+            else if (k == 2){
+                if (i < maxImpacts-maxImpacts+2)
+                    cell.className = "danger";
+                else if (i > maxImpacts-maxImpacts+4)
+                    cell.className = "success";
+                else
+                    cell.className = "warning";
+            }
+            else if (k==3){
+                if (i <maxImpacts-maxImpacts+4)
+                    cell.className = "warning";
+                else
+                    cell.className = "success";
+            }
+            else if (k==4){
+                cell.className ="success";
+            }
             for (var j = 0; j <data.length-1; j++){
                 if (data[j]['processQuality'] == k){
                     if (data[j]['impactTotal'] == maxImpacts-i){
