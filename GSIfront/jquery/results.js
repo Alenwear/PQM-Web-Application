@@ -58,13 +58,38 @@ function listProcesses(data){
     }
     var conclusions = document.getElementById("conclusions");
     conclusions.value = data[data.length-1]['conclusions'];
+
+    /*[4,1]
+    [maxImpacts-2,0];
+    [2,2]*/
 }
 
 function determineBPnoIT(data){
     var list = document.getElementById("bpnoIT");
+    var mcp = document.getElementById("mcp");
+    var maxImpacts = 0;
+    for (var i = 0; i<data.length-1; i++){
+        if (data[i]['impactTotal']>maxImpacts)
+            maxImpacts = data[i]['impactTotal'];
+    }
+    if (maxImpacts < 7){
+        maxImpacts = 7;
+    }
     for (var i = 0; i<data.length-1; i++){
         if (data[i]['businessQuality'] == 0 || data[i]['techQuality'] == 0){
             list.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>"
+        }
+        if (data[i]['processQuality'] == 0){
+            if (data[i]['impactTotal'] >= maxImpacts-4)
+                mcp.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>";
+        }
+        else if (data[i]['processQuality'] == 1){
+            if (data[i]['impactTotal'] >= maxImpacts-3)
+                mcp.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>";
+        }
+        else if (data[i]['processQuality'] == 2){
+            if (data[i]['impactTotal'] >= maxImpacts-1)
+                mcp.innerHTML += "<strong>BP"+i.toString()+":</strong> "+data[i]['name'] + "<br/>";
         }
     }
 }
@@ -100,23 +125,23 @@ function createCSFBPtable(data){
                     cell.className = "warning";
             }
             else if (k == 1){
-                if (i < maxImpacts-maxImpacts+4)
+                if (i < 4)
                     cell.className = "danger";
-                else if (i > maxImpacts-maxImpacts+5)
+                else if (i > 5)
                     cell.className = "success";
                 else
                     cell.className = "warning";
             }
             else if (k == 2){
-                if (i < maxImpacts-maxImpacts+2)
+                if (i < 2)
                     cell.className = "danger";
-                else if (i > maxImpacts-maxImpacts+4)
+                else if (i > 4)
                     cell.className = "success";
                 else
                     cell.className = "warning";
             }
             else if (k==3){
-                if (i <maxImpacts-maxImpacts+4)
+                if (i <4)
                     cell.className = "warning";
                 else
                     cell.className = "success";
@@ -148,6 +173,7 @@ function createCSFBPtable(data){
     tr.appendChild(th);
     for (var i = 0; i < classifications.length; i++) {
         var th = document.createElement('th');
+        th.className = "col-md-2";
         th.innerHTML = classifications[i];
         tr.appendChild(th);
     }
