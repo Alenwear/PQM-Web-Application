@@ -20,7 +20,7 @@ $(function(){
         // handle the responses
         request.done(function(data) {
             //data: response from backend PHP
-            $('#response').html(data);
+            alert(data);
         })
         request.fail(function(jqXHR, textStatus) {
             console.log(textStatus);
@@ -52,7 +52,7 @@ $(function(){
             // update the user
             //data: response from backend PHP
             if (data == -1) {
-                $('#response').html('Someting went wrong');
+                alert('Someting went wrong');
             }
             else{
                 window.location.href = "menu.html";
