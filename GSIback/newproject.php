@@ -28,10 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $params = array();
         $results = dataQuery($query, $params);
         $_SESSION['projectID'] = $results[0]['ID'];
-        $upwards = explode(",",$upwards);
-        $external = explode(",", $external);
-        $functional = explode(",", $functional);
-        $peer = explode(",", $peer);
+        $upwards = explode(", ",$upwards);
+        $external = explode(", ", $external);
+        $functional = explode(", ", $functional);
+        $peer = explode(", ", $peer);
         foreach ($upwards as $value) {
                 $query = 'INSERT INTO `DominantInfluence` (`IDProject`, `type`,`name`) VALUES (?,?,?)';
                 $params = array($_SESSION['projectID'], 0, $value);

@@ -24,7 +24,7 @@ $(function(){
             }
             else if (data == 1){
                 alert("Project successfully edited");
-                window.location.href = "menu.html";
+                window.location.href = "pqmmatrix.html";
             }
             else{
                 alert(data);
@@ -65,23 +65,23 @@ function fillFields(data) {
     for (var i = 1; i < data.length; i++){
         switch (data[i]['type']){
             case 0:
-                upwards.value += data[i]['name'] + ",";
+                upwards.value += data[i]['name'] + ", ";
                 break;
             case 1:
-                external.value += data[i]['name'] + ",";
+                external.value += data[i]['name'] + ", ";
                 break;
             case 2:
-                functional.value += data[i]['name'] + ",";
+                functional.value += data[i]['name'] + ", ";
                 break;
             case 3:
-                peer.value += data[i]['name'] + ",";
+                peer.value += data[i]['name'] + ", ";
                 break;
         }
     }
 
-    upwards.value = upwards.value.substring(0,upwards.value.length-1);
-    external.value = external.value.substring(0,external.value.length-1);
-    functional.value = functional.value.substring(0,functional.value.length-1);
-    peer.value = peer.value.substring(0,peer.value.length-1);
+    upwards.value = upwards.value.substring(0,upwards.value.length-2);
+    external.value = external.value.substring(0,external.value.length-2);
+    functional.value = functional.value.substring(0,functional.value.length-2);
+    peer.value = peer.value.substring(0,peer.value.length-2);
 
 }
